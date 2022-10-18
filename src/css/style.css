@@ -59,7 +59,16 @@
   
   .container_popover::after {
     content: "";
+    height: 8px;
+    width: 8px;
     position: absolute;
+    background-color:#ffffff;
+    border: 1px solid #aaaaaa;
+    border-left-style: none;
+    border-top-style: none;    
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%) rotate(45deg);
   }
   
   .active {
