@@ -16,5 +16,6 @@ export default class Tooltip {
     } else {
       popover.classList.add('active');
     }
+    // console.log(popover.classList.contains('active'));
   }
 }
